@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install nodemon
+
+PATH: 
+  /home/cacomp/miniconda3/bin:/home/cacomp/miniconda3/bin:/opt/maven3/bin:/home/cacomp/.rvm/gems/ruby-2.4.0-rc1/bin:/home/cacomp/.rvm/gems/ruby-2.4.0-rc1@global/bin:/home/cacomp/.rvm/rubies/ruby-2.4.0-rc1/bin:/opt/maven3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/cacomp/.rvm/bin:/home/cacomp/.rvm/bin:/opt/gradle/gradle-4.4.1/bin:/home/cacomp/.rvm/bin:/home/cacomp/.rvm/bin:/opt/gradle/gradle-4.4.1/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.7.1
+
+Platform: 
+  linux ia32
+
+npm manifest: 
+  {
+    "name": "blockchain-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Stenio Wagner",
+    "license": "ISC",
+    "dependencies": {
+      "crypto-js": "^3.1.9-1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add nodemon" instead.
+      at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at Object.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
